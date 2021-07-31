@@ -4,16 +4,17 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Luckiest Guy', cursive;
-	color: floralwhite;
+	color: darkorange;
 }
 
 body {
-	background-image: url(https://media.giphy.com/media/WWYSFIZo4fsLC/giphy.gif);
+	background-image: url(https://media.giphy.com/media/5WJ0EAzwI6oMwqcRFy/giphy.gif);
 	padding: 100px;
 	margin: 100px;
-	background-repeat: no-repeat center center fixed;
+	background-repeat: no-repeat center  fixed ;
   background-attachment: fixed;
   background-size: cover;
+  background-position: ;
 }
 
 
@@ -30,5 +31,9 @@ body div> .greeting{
 
 body img{
 	border-radius: 150px;
+}
+
+body section > p {
+	size: 100px;
 }
 
