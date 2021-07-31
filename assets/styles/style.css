@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Luckiest Guy', cursive;
+	color: floralwhite;
+}
+
+body {
+	background-image: url(https://media.giphy.com/media/WWYSFIZo4fsLC/giphy.gif);
+	padding: 100px;
+	margin: 100px;
+	background-repeat: no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+
+
+body div> .greeting{
+			color:  blue;
+			text-align: center;
+			letter-spacing: 3px;
+			text-shadow: 2px 2px 5px red
+}
+
+body img{
+	border-radius: 150px;
+}
+
