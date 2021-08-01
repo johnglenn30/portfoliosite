@@ -14,26 +14,46 @@ body {
 	background-repeat: no-repeat center  fixed ;
   background-attachment: fixed;
   background-size: cover;
-  background-position: ;
+  
+}
+
+#mypic {
+	width: 200;
+	border-radius: 150px;
+}
+
+.description { 
+	text-align: justify
+	padding: 100px
+
+}
+
+.landing h1{
+	color: black;
+}
 }
 
 
 
 
-
-
-body div> .greeting{
+body landing > .greeting{
 			color:  blue;
 			text-align: center;
 			letter-spacing: 3px;
 			text-shadow: 2px 2px 5px red
 }
 
-body img{
-	border-radius: 150px;
+
+
+
+footer.footer {
+    height: 300px;
+    width: 100%;
+    background-color: #333333;
 }
 
-body section > p {
-	size: 100px;
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
 }
-
