@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Lato', sans-serif;
 	
 }
 
@@ -50,11 +50,29 @@ body {
 	color: black;
 }
 
-@keyframes example {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  100% {color: green;}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 
@@ -71,9 +89,11 @@ body {
 			box-sizing: border-box;
 			display: auto;
 			position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: 60;
+ animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
 }
 
  .profile .description > p {
@@ -111,7 +131,8 @@ body .buttons	{
 
 footer {
   
-    background-color: greenyellow;
+    background-color: white;
+    border-radius: 30px;
 }
 
 footer .container {
