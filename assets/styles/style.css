@@ -72,19 +72,23 @@ body .skills {
 	padding: 100px;
 }
 
-body .skills > a .gallery	{
+body .buttons	{
 	display: block;
 	float: inline-block;
 	margin: auto;
 	width: 250px;
+	font-size: 16px;
 }
 
-body .skills > a .home	{
-
+/*body #home {
+	display: block;
 	float: inline-block;
 	margin: auto;
 	width: 250px;
-}
+
+}*/
+
+
 
 
 
