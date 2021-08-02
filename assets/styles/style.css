@@ -7,6 +7,23 @@
 	
 }
 
+nav ul	{
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
 body {
 	background-image: url(https://media.giphy.com/media/5WJ0EAzwI6oMwqcRFy/giphy.gif);
 	padding: 100px;
