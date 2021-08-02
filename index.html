@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">
 
 
 
@@ -24,7 +24,7 @@
 	<body>
 		<section class="landing">
 	
-			<div class="profile"	 >
+			<div class="profile" id="top"	 >
 				<div>
 					<img  src="./assets/images/glenn.jpg" id="mypic" alt="no image">
 					<h1> John Glenn D. Elisan</h1>
@@ -34,37 +34,46 @@
 				<h3 class="greeting">Aloha!</h3>
 
 				<div class="description">
-					<p>  I am a Full-Stack Web Developer and I would like to help you create cool and awesome websites for your business or personal needs. Looking forward to work with you!</p>
+					<p>  I am a Full-Stack Web Developer and I would like to help you create cool and awesome websites for your business or personal needs. I am looking forward to work with you!</p>
 				</div>
+			</div>
 
 		</section>
 
-			</div>
 
-			<div class="text-justify text-center">
-			<h2>Tools I Use</h2>
 
 			
- 			</div>
-		
-			<div class="container-fluid text-justify text-center mb-4">
-				<div class="text-justify text-center">
-					<img  src="./assets/images/pic3.png" alt="no image">
-					<img  src="./assets/images/pic1.png" alt="no image">
-					<img  src="./assets/images/pic4.png" alt="no image">
-					<img  src="./assets/images/pic5.png" alt="no image">
-					<img  src="./assets/images/pic6.png" alt="no image">
-					<img  src="./assets/images/pic7.png" alt="no image">
-					<img  src="./assets/images/pic8.png" alt="no image">
-					<img  src="./assets/images/pic9.png" alt="no image">
-					<img  src="./assets/images/pic10.png" alt="no image">
-					<img  src="./assets/images/pic11.png" alt="no image">
-					<img  src="./assets/images/pic12.png" alt="no image">
-					<img  src="./assets/images/pic14.png" alt="no image">
-					<img  src="./assets/images/pic13.png" alt="no image">
-					<img  src="./assets/images/pic2.png" alt="no image">
-				</div>
- 			</div>
+
+		<section class="skills">
+			<h2>Tools I Use</h2>
+
+			<img  src="./assets/images/pic3.png" alt="no image">
+			<img  src="./assets/images/pic1.png" alt="no image">
+			<img  src="./assets/images/pic4.png" alt="no image">
+			<img  src="./assets/images/pic5.png" alt="no image">
+			<img  src="./assets/images/pic6.png" alt="no image">
+			<img  src="./assets/images/pic7.png" alt="no image">
+			<img  src="./assets/images/pic8.png" alt="no image">
+			<img  src="./assets/images/pic9.png" alt="no image">
+			<img  src="./assets/images/pic10.png" alt="no image">
+			<img  src="./assets/images/pic11.png" alt="no image">
+			<img  src="./assets/images/pic12.png" alt="no image">
+			<img  src="./assets/images/pic14.png" alt="no image">
+			<img  src="./assets/images/pic13.png" alt="no image">
+			<img  src="./assets/images/pic2.png" alt="no image">
+
+		<a href="gallery.html">
+			<button >My Gallery</button>
+		</a>
+		</form>
+			<button >
+				Home
+				<a href="#top"></a>
+			</button>
+
+		</section>
+
+ 			
 
 		
 
@@ -83,7 +92,7 @@
 
 		<div class="p-4">
 			<h3>Contact Me Here!</h3>
-			<form >
+			<form action="https://google.com">
 
 				<div class="form-group">
 					<label for="Full Name">Full Name</label><input type="name" name="" id="" class="form-control" placeholder="Type your full name">
@@ -98,9 +107,17 @@
 					<textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
 				</div>
 
-				<button type="submit" class="btn btn-success btn-block">Send</button>
+				<button type="submit" class="btn btn-success btn-block" onclick="email">Send
+				</button>
 
 			</form>
+
+			<div class="container">
+				<p>
+					Copyright 2021 . All Rights Reserved.
+				</p>
+				
+			</div>
 	</footer>
         	
 	</div>
