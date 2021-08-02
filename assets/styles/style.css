@@ -33,6 +33,13 @@ body {
 	color: black;
 }
 
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
 
 .profile .greeting {
 			color:  blue;
@@ -46,7 +53,10 @@ body {
 			padding-bottom: 0;
 			box-sizing: border-box;
 			display: auto;
-
+			position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 60;
 }
 
  .profile .description > p {
@@ -62,14 +72,18 @@ body .skills {
 	padding: 100px;
 }
 
-body .skills > a button	{
+body .skills > a .gallery	{
 	display: block;
 	float: inline-block;
 	margin: auto;
 	width: 250px;
-	
-	
+}
 
+body .skills > a .home	{
+
+	float: inline-block;
+	margin: auto;
+	width: 250px;
 }
 
 
