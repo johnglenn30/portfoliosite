@@ -32,6 +32,40 @@ body {
   box-sizing: border-box;
 }
 
+#container {
+  position: relative; /* Set position relative for positioning the caption */
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Set the height equal to the width to make it a square */
+  overflow: hidden; /* Hide any content that exceeds the dimensions of the square */
+  border: 2px solid #ccc; /* Add border for visual separation */
+}
+
+.website-link {
+  display: block;
+  width: 100%; /* Ensure the link fills the container */
+  height: 100%; /* Ensure the link fills the container */
+  text-align: center; /* Center the text horizontally */
+  text-decoration: none; /* Remove underline from the link */
+  color: #333; /* Set the color of the link text */
+  position: relative; /* Set position relative for positioning the caption */
+}
+
+.website-link img {
+  width: 100%; /* Ensure the thumbnail image fills the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.caption {
+  position: absolute; /* Position the caption relative to the container */
+  bottom: 0; /* Align the caption to the bottom */
+  width: 100%; /* Make the caption span the entire width of the container */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+  color: #fff; /* Caption text color */
+  padding: 8px; /* Add some padding for better appearance */
+}
+
+
+
 #mypic {
   width: 200;
   border-radius: 150px;
