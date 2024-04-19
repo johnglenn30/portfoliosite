@@ -8,8 +8,8 @@
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 100px;
+  padding: 100px;
   overflow: hidden;
 }
 
@@ -24,8 +24,7 @@ li a {
 }
 
 body {
-  background-image: url(https://media4.giphy.com/media/jZ02CfMfCpf6o/giphy.gif?cid=ecf05e47w3aedkh0r7ga9fy3t3lp7n2bjqwytgi2luw0te6o&rid=giphy.gif&ct=g);
-  padding: 100px;
+  background-image:url('../images/vecteezy_generativo-ai-oceano-en-el-puesta-de-sol-lineal_23531873.jpg') ;
   margin: 100px;
   background-repeat: no-repeat center fixed;
   background-attachment: fixed;
@@ -139,6 +138,181 @@ body .buttons {
 
 }*/
 
+footer #contact form {
+  max-width: 400px; /* Set maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add some padding to the form */
+}
+
+footer #contact form .form-group {
+  margin-bottom: 15px; /* Adjust spacing between form groups */
+}
+
+footer #contact form label {
+  display: block; /* Make labels display as block elements */
+  margin-bottom: 5px; /* Add some space below labels */
+}
+
+footer #contact form input[type="text"],
+footer #contact form input[type="email"],
+footer #contact form textarea {
+  width: 100%; /* Make form inputs span the full width */
+  padding: 10px; /* Add padding to form inputs */
+  margin-bottom: 10px; /* Adjust spacing between form inputs */
+}
+
+footer #contact form button {
+  width: 100%; /* Make the button span the full width */
+  padding: 10px; /* Add padding to the button */
+}
+footer #contact {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the contact section horizontally */
+  padding: 20px; /* Add some padding to the contact section */
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+body {
+  /* background-image:url('../images/mixkit-man-working-on-his-laptop-308-medium.mp4') ; */
+  margin: 100px;
+  background-repeat: no-repeat center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#mypic {
+  width: 200;
+  border-radius: 150px;
+}
+
+.landing .profile h1, h3 {
+  color: white;
+}
+
+.landing .profile h2 {
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.profile .greeting {
+  color: blue;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px red;
+  padding: 100px;
+  padding-left: flex;
+  font-size: 12vw;
+  padding-top: 0px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  display: auto;
+  position: relative;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.profile .description > p {
+  color: black;
+  font-size: 150%;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+body .skills {
+  text-align: center;
+  padding: 100px;
+}
+
+body .buttons {
+  display: block;
+  float: inline-block;
+  margin: auto;
+  width: 250px;
+  font-size: 16px;
+}
+
+/*body #home {
+	display: block;
+	float: inline-block;
+	margin: auto;
+	width: 250px;
+
+}*/
+
 footer {
   background-color: white;
   border-radius: 30px;
@@ -147,3 +321,11 @@ footer {
 footer .container {
   text-align: center;
 }
+
+
+
+
+
+
+
+
